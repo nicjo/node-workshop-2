@@ -1,0 +1,26 @@
+{
+  "name": "nicjo-nodejs-workshop-2",
+  "version": "1.0.0",
+  "description": "Nic's NodeJS workshop project ",
+  "main": "cps.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicjo/node-workshop-2.git"
+  },
+  "keywords": [
+    "cps",
+    "node_module",
+    "web",
+    "server",
+    "workshop"
+  ],
+  "author": "Nic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicjo/node-workshop-2/issues"
+  },
+  "homepage": "https://github.com/nicjo/node-workshop-2#readme"
+}
