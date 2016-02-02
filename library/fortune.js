@@ -7,10 +7,10 @@ var fortuneList = [ "You gonne die muthafucka!",
                     "OMG. You are, like, sooooooooo lucky!"
                     ]
 
-function getFortune() {
+
+module.exports = {getFortune: function getFortune () {
     return fortuneList[Math.floor(Math.random() * 5)];
-}
+    }
+    
+};
 
-module.exports = {getFortune: getFortune}
-
-console.log(getFortune());
