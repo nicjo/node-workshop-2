@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/nicjo/node-workshop-2/issues"
   },
-  "homepage": "https://github.com/nicjo/node-workshop-2#readme"
+  "homepage": "https://github.com/nicjo/node-workshop-2#readme",
+  "dependencies": {
+    "request": "^2.69.0"
+  }
 }
