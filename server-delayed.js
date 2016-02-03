@@ -1,8 +1,15 @@
+
 var http = require('http');
 
+
     var requestListener = function (req, response) {
-             response.end("Hello World!");
-    }
+        setTimeout(slowResponse, 10000);
+
+        function slowResponse(){
+          response.end("Hello World!");
+      }
+             
+    };
 
  
  var server = http.createServer(requestListener);
